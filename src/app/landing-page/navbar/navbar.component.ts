@@ -8,18 +8,16 @@ import { Router } from '@angular/router';
 })
 export class NavbarComponent {
 
-  menuBox: boolean = false;
-  mobileNav: boolean = true;
+  mobileNav: boolean = false;
 
   constructor(private router: Router){}
 
 
   openNav() {
-    this.menuBox = true;
+    this.mobileNav = true;
   }
 
   closeNav() {
-    this.menuBox = false;
     this.mobileNav = false
   }
   navigateToAboutSection() {
