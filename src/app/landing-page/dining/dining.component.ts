@@ -7,4 +7,19 @@ import { Component } from '@angular/core';
 })
 export class DiningComponent {
 
+  cards = [
+    {
+      image:"/assets/images/ramen.svg",
+      title:"Food Menu"
+    },
+    {
+      image:"/assets/images/juice.svg",
+      title:"Drink Menu"
+    },
+    {
+      image:"/assets/images/admin.svg",
+      title:"Login as Admin"
+    },
+  ]
+
 }

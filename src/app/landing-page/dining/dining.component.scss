@@ -7,3 +7,22 @@
   left:50%;
   transform: translate(-50%,-50%);
 }
+
+.card{
+  width: 452px;
+  height: 337px;
+  flex-shrink: 0;
+  border-radius: 32px;
+  background: linear-gradient(180deg, #393939 0%, #201C1C 100%);
+  box-shadow: 33px 22px 33px 0px #292929 inset;
+}
+
+.img{
+    text-align: center;
+    top: 15%;
+    left: 0;
+    right: 0;
+    margin: auto;
+    transform: translateY(-50%);
+}
+
