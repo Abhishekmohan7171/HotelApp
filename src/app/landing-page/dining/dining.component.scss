@@ -26,3 +26,17 @@
     transform: translateY(-50%);
 }
 
+@media only screen and (max-width: 700px) {
+
+  .main-container{
+    padding-top:500px
+  }
+
+  .cards-container{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+}
+
