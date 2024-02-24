@@ -65,10 +65,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "ez-Order:build:production"
+              "buildTarget": "ez-Order:build:production"
             },
             "development": {
-              "browserTarget": "ez-Order:build:development"
+              "buildTarget": "ez-Order:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -76,7 +76,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "ez-Order:build"
+            "buildTarget": "ez-Order:build"
           }
         },
         "test": {
